@@ -6,8 +6,11 @@
 //  Copyright © 2020 Suryamudti Salmat. All rights reserved.
 //
 
+import Foundation
 
-struct Task {
+struct Task : Identifiable {
+    let id = UUID()
+    
     var name: String
     var isCompleted = false
 }
