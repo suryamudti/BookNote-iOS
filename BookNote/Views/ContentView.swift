@@ -12,9 +12,23 @@ struct ContentView: View {
     
     var taskStore: TaskStore
     
+    @State var isModalPresented = false
+    
     var body: some View {
-        List(taskStore.tasks) { task in
-            Text(task.name)
+        NavigationView {
+            List(taskStore.tasks) { task in
+                Text(task.name)
+            }
+        .navigationBarTitle("Task")
+            .navigationBarItems(
+                trailing:
+                Button(
+                    action: { self.isModalPresented = true }){
+                Image(systemName: "plus")
+            })
+        }
+        .sheet(isPresented: $isModalPresented) {
+            NewTaskView()
         }
     }
 }
