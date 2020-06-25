@@ -6,8 +6,10 @@
 //  Copyright © 2020 Suryamudti Salmat. All rights reserved.
 //
 
-class TaskStore {
-    var tasks = [
+import Combine
+
+class TaskStore : ObservableObject {
+    @Published var tasks = [
         "Code with swiftUI app",
         "Book an escape room",
         "Walk the cat",
