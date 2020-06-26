@@ -18,7 +18,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(taskStore.tasks) { task in
-                    Text(task.name)
+                    RowView(task: task)
                 }
                 .onMove { sourceIndices, destinationIndex in
                     self.taskStore.tasks.move(fromOffsets: sourceIndices, toOffset: destinationIndex)
