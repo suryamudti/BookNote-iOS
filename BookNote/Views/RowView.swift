@@ -12,9 +12,16 @@ struct RowView: View {
     
     @Binding var task: Task
     
+    let checkMark = Image(systemName: "checkmark")
+    
     var body: some View {
         NavigationLink(destination: TaskEditingView(task: $task)) {
-            Text(task.name)
+            if task.isCompleted {
+                checkMark
+            } else {
+                checkMark.hidden()
+            }
+            Text(task.name).strikethrough(task.isCompleted)
         }
     }
 }
