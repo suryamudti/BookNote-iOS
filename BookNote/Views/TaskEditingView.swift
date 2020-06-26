@@ -1,5 +1,5 @@
 //
-//  RowView.swift
+//  TaskEditingView.swift
 //  BookNote
 //
 //  Created by Suryamudti Salmat on 26/06/20.
@@ -8,17 +8,19 @@
 
 import SwiftUI
 
-struct RowView: View {
+struct TaskEditingView: View {
     
     @Binding var task: Task
     
     var body: some View {
-        Text(task.name)
+        Form {
+            TextField("Name", text: $task.name)
+        }
     }
 }
 
-struct RowView_Previews: PreviewProvider {
+struct TaskEditingView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(task: .constant(Task(name: "Todo")))
+        TaskEditingView(task: .constant(Task(name: "Todo")))
     }
 }
