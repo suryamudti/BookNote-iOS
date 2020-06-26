@@ -24,7 +24,7 @@ struct ContentView: View {
                     self.taskStore.tasks.remove(atOffsets: indexSet)
                 }
             }
-        .navigationBarTitle("Task")
+        .navigationBarTitle("Book Note")
             .navigationBarItems(
                 trailing:
                 Button(
