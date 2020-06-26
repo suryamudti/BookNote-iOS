@@ -13,6 +13,7 @@
 		B779FD4F24A5E0F70083E5A4 /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779FD4E24A5E0F70083E5A4 /* IndexedCollection.swift */; };
 		B779FD5124A5E5C50083E5A4 /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779FD5024A5E5C50083E5A4 /* Task.Priority.swift */; };
 		B779FD5324A5E6690083E5A4 /* TaskStore.PrioritizedTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779FD5224A5E6690083E5A4 /* TaskStore.PrioritizedTask.swift */; };
+		B779FD5524A5F0B20083E5A4 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B779FD5424A5F0B20083E5A4 /* SectionView.swift */; };
 		B7B2F18024A4DD1E00C8D233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2F17F24A4DD1E00C8D233 /* AppDelegate.swift */; };
 		B7B2F18224A4DD1E00C8D233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2F18124A4DD1E00C8D233 /* SceneDelegate.swift */; };
 		B7B2F18424A4DD1E00C8D233 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B2F18324A4DD1E00C8D233 /* ContentView.swift */; };
@@ -31,6 +32,7 @@
 		B779FD4E24A5E0F70083E5A4 /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndexedCollection.swift; path = "../../../../Downloads/P03E04 Binding/End/TaskList/extension/IndexedCollection.swift"; sourceTree = "<group>"; };
 		B779FD5024A5E5C50083E5A4 /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
 		B779FD5224A5E6690083E5A4 /* TaskStore.PrioritizedTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTask.swift; sourceTree = "<group>"; };
+		B779FD5424A5F0B20083E5A4 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		B7B2F17C24A4DD1E00C8D233 /* BookNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B2F17F24A4DD1E00C8D233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B2F18124A4DD1E00C8D233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				B7B2F19924A55DC900C8D233 /* NewTaskView.swift */,
 				B779FD4724A5D6880083E5A4 /* RowView.swift */,
 				B779FD4924A5DE020083E5A4 /* TaskEditingView.swift */,
+				B779FD5424A5F0B20083E5A4 /* SectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				B779FD4D24A5E0D60083E5A4 /* ForEach.swift in Sources */,
 				B779FD4824A5D6880083E5A4 /* RowView.swift in Sources */,
 				B779FD5124A5E5C50083E5A4 /* Task.Priority.swift in Sources */,
+				B779FD5524A5F0B20083E5A4 /* SectionView.swift in Sources */,
 				B7B2F19A24A55DC900C8D233 /* NewTaskView.swift in Sources */,
 				B7B2F18024A4DD1E00C8D233 /* AppDelegate.swift in Sources */,
 				B7B2F18224A4DD1E00C8D233 /* SceneDelegate.swift in Sources */,
